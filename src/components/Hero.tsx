@@ -106,13 +106,14 @@ export const Hero: React.FC = () => {
               View Experience
               <ChevronDown size={18} />
             </button>
-            <button
-              onClick={() => window.print()}
+            <a
+              href={`${import.meta.env.BASE_URL}resume.pdf`}
+              download="Akash_Nauhwar_Resume.pdf"
               className="px-6 py-3 bg-slate-800/50 text-white font-medium rounded-lg border border-slate-700 hover:bg-slate-800 transition-all hover:scale-105 flex items-center gap-2 backdrop-blur-sm hover:border-blue-500/50 hover:shadow-[0_0_20px_rgba(59,130,246,0.2)]"
             >
               <Download size={18} />
               Download Resume
-            </button>
+            </a>
           </motion.div>
         </div>
         
