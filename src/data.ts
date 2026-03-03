@@ -7,8 +7,8 @@ export const resumeData = {
     email: "anauhwar@gmail.com",
     phone: "+91 77150 43501",
     links: [
-      { name: "LinkedIn", url: "https://linkedin.com/in/akash-nauhwar" },
-      { name: "GitHub", url: "https://github.com/anauhwar" }
+      { name: "LinkedIn", url: "linkedin.com/in/akash-nauhwar" },
+      { name: "GitHub", url: "github.com/anauhwar" }
     ]
   },
   skills: [

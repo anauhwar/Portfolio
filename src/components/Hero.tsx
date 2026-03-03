@@ -63,7 +63,7 @@ export const Hero: React.FC = () => {
             className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-sm font-mono mb-6 shadow-[0_0_15px_rgba(59,130,246,0.2)]"
           >
             <Terminal size={14} />
-            {/* <span>System Online</span> */}
+            <span>System Online</span>
           </motion.div>
 
           <motion.h1
